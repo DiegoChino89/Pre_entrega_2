@@ -1,0 +1,345 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.contacto_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+nav {
+    width: 80%;
+
+}
+
+h1 {
+    background-color: aqua;
+    border: solid 20px grey;
+    font-size: 150px;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgba(39, 83, 214, 0.905);
+    border: solid 20px rgba(39, 83, 214, 0.905);
+    font-size: 80px;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgba(39, 83, 214, 0.905);
+    border: solid 20px rgba(39, 83, 214, 0.905);
+    font-size: 70px;
+    text-align: center;
+}
+
+h4 {
+    background-color: aqua;
+    display: flex;
+    font-size: 60px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.navegacion {
+    border: solid 10px;
+    border-color: blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+header div {
+    width: 80%;
+}
+
+header div img {
+    width: 30%;
+}
+
+footer div img {
+    width: 30%;
+}
+
+
+header div {
+    display: flex;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: green;
+    width: 20%;
+}
+
+.main-nav__link {
+    border: inset 5px black;
+    padding: 15px;
+    font-family: 'Times New Roman';
+    font-size: 90%;
+}
+
+
+.marcoGrande {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: solid 7px blue;
+    padding: 15px 15px 15px 15px;
+    margin: 10px;
+    background-color: rgb(173, 167, 167);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 45%;
+    height: 40%;
+    justify-content: space-evenly;
+}
+
+.card__copy {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Courier;
+}
+
+.card__header {
+    display: flex;
+}
+
+.card_figure {
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer div {
+    width: 100%;
+}
+
+footer div p {
+    text-align: center;
+}
+
+.redes_sociales {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+i {
+    font-size: 70px;
+}
+
+.figura_orden {
+    display: flex;
+    flex-direction: column;
+}
+
+.fondo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.galeria img{
+    width: 90%;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-nav {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Attack_on_Titan_logo.svg");
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+li {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.ctrl_video {
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+}
+
+video {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bordesMarca {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacto_mod {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.formulario_h {
+    display: flex;
+    width: 50rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+    font-family: Courier ;
+
+}
+
+.contacto_flex {
+    padding: 10px;
+    border: solid 10px black;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Courier ;
+
+}
+
+.contenedorCnt {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 50rem;
+}
+
+.tItuloLargo {
+    display: flex;
+}
+
+alineadoFila {
+    display: flex;
+}
+
+
+
+.headCincuenta {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+mein_class {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.main__personajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.bannerLargo {
+    display: flex;
+}
+
+.main_manga {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: brown;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 45%;
+    height: 40%;
+    justify-content: flex-start;
+}
+
+.bloque_manga {
+    display: flex;
+}
+
+.manga__copy {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Courier;
+}
+
+.manga__header {
+    display: flex;
+}
+
+.manga_figure {
+    display: flex;
+    justify-content: center;
+
+}
+
+p{
+    font-family: Courier;
+    font-size: 30px;
+}
+div section form p{
+    font-family: Courier;
+}
+aside{
+    position: sticky;
+}
+label{
+    font-family: Courier;
+}
